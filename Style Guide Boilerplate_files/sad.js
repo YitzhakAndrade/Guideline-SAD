@@ -7,7 +7,7 @@ $( document ).ready( function () {
 		var stopwords = ["do", "da", "de", "e"];
 
 		jQuery.each(stopwords, function(index, value) {
-			if (s == value) {
+			if (s.toLowerCase() == value) {
 				flg = 0; // nenhuma alteração na palavra
 			}
 		});
@@ -15,7 +15,7 @@ $( document ).ready( function () {
 		var upperwords = ["hr"];
 
 		jQuery.each(upperwords, function(index, value) {
-			if (s == value) {
+			if (s.toLowerCase() == value) {
 				flg = 2; // palavra inteira em maiusculo
 			}
 		});
