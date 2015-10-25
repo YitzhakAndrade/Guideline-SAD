@@ -73,34 +73,34 @@
               <div class="sg-color">
                 <div class="sg-color-swatch" style="background-color: #8b0000;"></div>
                 <div class="sg-color-name">Castanho Avermelhado</div>
-                <div class="sg-color-value">#8b0000</div>
+                <div><samp>#8b0000</samp></div>
               </div>
               <div class="sg-color">
                 <div class="sg-color-swatch" style="background-color: #cd0000;"></div>
                 <div class="sg-color-name">Vermelho GM</div>
-                <div class="sg-color-value">#cd0000</div>
+                <div><samp>#cd0000</samp></div>
               </div>              
               <div class="sg-color">
                 <div class="sg-color-swatch" style="background-color: #cd5c5c;"></div>
                 <div class="sg-color-name">Vermelho Indiano</div>
-                <div class="sg-color-value">#cd5c5c</div>
+                <div><samp>#cd5c5c</samp></div>
               </div>
               <div class="sg-color">
                 <div class="sg-color-swatch" style="background-color: #f5f5f5;"></div>
                 <div class="sg-color-name">Branco Fumaça</div>
-                <div class="sg-color-value">#f5f5f5</div>
+                <div><samp>#f5f5f5</samp></div>
               </div>
             </div><!--/.sg-color-grid-->
             <div class="sg-color-grid">
               <div class="sg-color">
                 <div class="sg-color-swatch" style="background-color: #c0c0c0;"></div>
                 <div class="sg-color-name">Prata</div>
-                <div class="sg-color-value">#c0c0c0</div>
+                <div><samp>#c0c0c0</samp></div>
               </div>
               <div class="sg-color">
                 <div class="sg-color-swatch" style="background-color: #111313;"></div>
                 <div class="sg-color-name">Obsidiana</div>
-                <div class="sg-color-value">#111313</div>
+                <div><samp>#111313</samp></div>
               </div>
             </div><!--/.sg-color-grid-->
             <h3>Secundárias</h3>
@@ -108,22 +108,22 @@
               <div class="sg-color">
                   <div class="sg-color-swatch" style="background-color: #697374;"></div>
                   <div class="sg-color-name">Concreto</div>
-                  <div class="sg-color-value">#697374</div>
+                  <div><samp>#697374</samp></div>
               </div>
               <div class="sg-color">
                 <div class="sg-color-swatch" style="background-color: #4682b4;"></div>
                 <div class="sg-color-name">Azul Aço</div>
-                <div class="sg-color-value">#4682b4</div>
+                <div><samp>#4682b4</samp></div>
               </div>
               <div class="sg-color">
                 <div class="sg-color-swatch" style="background-color: #ffffff;"></div>
                 <div class="sg-color-name">Branco</div>
-                <div class="sg-color-value">#ffffff</div>
+                <div><samp>#ffffff</samp></div>
               </div>
               <div class="sg-color">
                 <div class="sg-color-swatch" style="background-color: #000000;"></div>
                 <div class="sg-color-name">Preto</div>
-                <div class="sg-color-value">#000000</div>
+                <div><samp>#000000</samp></div>
               </div>
             </div><!--/.sg-color-grid-->
           </div><!--/.sg-colors-->
@@ -150,7 +150,7 @@
               <dt>Fonte Secundária em Negrito:</dt>
               <dd style='font-family: Georgia, Times, "Times New Roman", serif; font-weight: 800;'>Georgia, Times, "Times New Roman", serif;</dd>
             </dl>
-            <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
+            <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Voltar ao topo</a></div>
           </div><!--/.sg-font-stacks-->
         </div><!--/.sg-info-->
 
@@ -160,10 +160,12 @@
   </div><!--/.sg-wrapper-->
 
   <!--[if gt IE 8]><!--><script src="vendor/prisim/prisim.js"></script><!--<![endif]-->
+  
   <script src="js/jquery-2.1.4.js"></script>
-  <script src="js/sad.js"></script>
+  <script src="js/sad.js"></script>    
   <script src="js/sg-scripts.js"></script>
-  <!--<script src="bootstrap-3.3.5/js/bootstrap.js"></script>-->
+  <script src="bootstrap-3.3.5/js/bootstrap.js"></script>
+
 </body>
 </html>
 

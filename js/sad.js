@@ -1,25 +1,36 @@
 $( document ).ready( function () {
 
-	function capitalize(s){
+	function capitalizeWord(s){
 
-		var flg = true;
+		var flg = 1; // por padrão, a palavra tem a primeira letra em maiusculo
 
 		var stopwords = ["do", "da", "de", "e"];
 
 		jQuery.each(stopwords, function(index, value) {
 			if (s == value) {
-				flg = false;
+				flg = 0; // nenhuma alteração na palavra
 			}
 		});
 
-		if (flg)
+		var upperwords = ["hr"];
+
+		jQuery.each(upperwords, function(index, value) {
+			if (s == value) {
+				flg = 2; // palavra inteira em maiusculo
+			}
+		});
+
+		if (flg === 1)
 	    	return s.toLowerCase().replace( /^\b./g, function(a){ return a.toUpperCase(); } );
-	    else
-	    	return s;
+	    else if (flg === 2)
+    		return s.toUpperCase();
+    	else
+    		return s;
+	    	
 
 	};
 
-	$(".sg-subnav-parent li a").each(function(index, value) {
+	function capitalizeString(index, value) {
   		
   		var li = $(this);
 		var words = li.text().split(" ");
@@ -27,10 +38,13 @@ $( document ).ready( function () {
 		li.empty();
 
 		jQuery.each(words, function(index, value) {
-	       var w = capitalize(value);
+	       var w = capitalizeWord(value);
 	       li.append(w).append(" ");
 	   });
 
-	});
+	}
+
+	$(".sg-title").each(capitalizeString);
+	$(".sg-subnav-parent li a").each(capitalizeString);
 
 })

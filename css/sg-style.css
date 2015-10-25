@@ -285,15 +285,13 @@ body {
 .sg-h1 {
   font-size: 2em;
   padding-bottom: .2em;
-  text-transform: capitalize;
 }
 
 .sg-h2 {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #c0c0c0;
   font-size: 1.75em;
   margin-bottom: .75em;
   padding-bottom: .2em;
-  text-transform: capitalize;
 }
 
 .sg-h3 {
@@ -456,7 +454,7 @@ body {
 }
 
 .sg-font-list dd {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #c0c0c0;
   display: block;
   margin-bottom: .75em;
   margin-left: 0;
@@ -474,7 +472,7 @@ body {
 /* Markup
 ---------------------------------------------------------------------------- */
 .sg-doc {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #c0c0c0;
   margin-bottom: 1em;
 }
 
@@ -489,7 +487,7 @@ body {
 .sg-source pre {
   background: #333;
   border-radius: .5em;
-  border: 1px solid #ddd;
+  border: 1px solid #c0c0c0;
   color: #fff;
   overflow-x: scroll;
   padding: .5em .3em;
