@@ -111,7 +111,7 @@
       echo '<a class="sg-btn--top" href="#top">Voltar ao topo</a>';
       echo '</div>';
       echo '<div class="sg-source">';
-      echo '<button type="button" class="sg-btn sg-btn--select">Copiar código</button>';
+      echo '<button type="button" class="sg-btn sg-btn--select">Selecionar código</button>';
       echo '<pre class="line-numbers"><code class="language-markup">';
       echo htmlspecialchars($content);
       echo '</code></pre>';

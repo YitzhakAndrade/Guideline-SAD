@@ -1,1 +1,1 @@
-teste
+A paginação deve ser aplicada sempre que uma lista ultrapassar 10 itens. Pode ser aplicada opcionalmente em páginas de 5 registros.

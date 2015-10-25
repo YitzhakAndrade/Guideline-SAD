@@ -1,1 +1,1 @@
-Add your personalized documentation here.
+Usar quando não é necessário mostrar os detalhes de todos os elementos de uma lista.

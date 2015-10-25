@@ -1,1 +1,1 @@
-Add your personalized documentation here.
+Elementos que podem ser aplicados no corpo do texto. 

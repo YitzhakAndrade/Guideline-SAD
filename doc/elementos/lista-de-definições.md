@@ -1,1 +1,1 @@
-Add your personalized documentation here.
+Painel usado para explicar siglas, palavras, definições, etc.
